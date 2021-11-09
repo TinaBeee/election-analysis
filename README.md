@@ -41,6 +41,6 @@ The script developed for this analysis can easily be adapted for use for other e
 
 Election results would need to be provided in a CSV file, but their format does not need to comply with that of the current CSV file, i.e. the voter ID, county and candidate columns do not need to be in the same order. The script can easily be changed to link up with different CSV files. The only thing that would need to be changed is the row count number currently listed as `candidate_name = row[2]`  and  `county_name = row[1]`  in the script.
 
-Depending on how and where the CSV file is saved, the path to the file and the file name would need to be changed in the `os.path.join() command to correspond with the right file path.
+Depending on how and where the CSV file is saved, the path to the file and the file name would need to be changed in the `os.path.join()` command to correspond with the right file path.
 
 Depending on which election this file should be used for, the names of variables and the text output language can be adapted. For example, if this script is to be used for a municipal election, the variables could be changed for easier reading comprehension - but don't have to be! - to list the `winning_municipality` instead of the `winning_county`. The text in the text output file would need to be adapted accordingly to reflect the type of election.
